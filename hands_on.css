@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+button{
+    background-color: rgb(143, 3, 3);
+}
+
+/* div ~ p{
+    background-color: red;
+} */
+.login{
+    display: flex;
+
+    /* justify-content: flex-start; */
+}
+.login-form{
+    padding-left: 50px;
+}
+.app-logo{
+    padding-top: 150px;
+    padding-left: 70px;
+}
+.app-button{
+    display: flex; 
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+input {
+    padding-bottom: 10px;
+    width: 175px;
+    height: 30px;
+}
+/* .forgot-password{
+    margin-top: 20px;
+} */
+.sign{
+    font-family: 'Poppins', sans-serif;
+}
+/* Cards */
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(199, 5, 5);
+
+}
+.logo{
+margin-left: 150px;
+}
+.user{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 20px;
+    color: #fff;
+    padding: 5px;
+  
+}
+.fas fa-map-marker-alt{
+    width: 20px;
+}
+.logo {
+    color: #fff;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: left;
+    justify-content: left;
+  }
+  .card {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .card-container {
+    display: flex; /* Display the cards horizontally */
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+  }
+  .review{
+ text-align: right;
+  }
+
+  
